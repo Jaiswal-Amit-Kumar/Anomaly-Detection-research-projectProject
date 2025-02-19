@@ -98,14 +98,17 @@ The dataset used in this project contains network traffic data with labeled inst
 
 ## 6. Results
 
-(This section should be updated with the actual results of your experiments. Include tables, graphs, and a discussion of the performance of the different models.  Compare the performance of the deep learning approach to traditional machine learning methods.)
-
-To Be Added:  This section will include:
-
 *   Accuracy, precision, recall, and F1-score for each model.
 *   ROC curves and AUC values.
 *   Comparison of deep learning model performance with traditional ML models.
 *   Analysis of the effectiveness of feature selection techniques.
+
+*  Precision Scores: All models have very high precision rates, namely 1.00 and 0.99, 1.00, 0.99, and 1.00 for Decision Tree Classifier, RandomForest Classifier, LGBM Classifier, and Cat Boost Classifier. However, the GaussianNB model is less accurate as its recall for class 0 is only 0.98.
+* Recall Scores: The Decision Tree Classifier, RandomForestClassifier, LGBM Classifier, and Cat Boost Classifier also have very good Recall (1.00) for both groups of Class 0 and Class 1. The GaussianNB model achieved a higher level of recall for Class 1 and a lower level for Class 0 which are 0.88 and 0.81 respectively.
+* F1-Score Comparison: The F1-Score, which integrates Precision and Recall, exhibits a nearly identical trend. The Decision Tree Classifier, RandomForestClassifier, LGBM Classifier, and Cat Boost Classifier have F1- Scores of 1.00, 1.00, 1.00, and 1.00 for Class 0 respectively and 0.99, 1.00, 0.99, and 1.00 for Class 1.
+Nevertheless, the GaussianNB model has a somewhat lower F1-Score of 0.93 for Class 0 and 0.46 for Class 1.
+* Overall Performance: According to the Precision, Recall, and F1-Score metrics, the Decision Tree Classifier, the RandomForestClassifier, the Light Gradient Boosting Machine (LGBM) Classifier, and the Cat Boost Classifier seem to have almost the same and pretty good classification abilities,while the GaussianNB model seems to have the least efficient performance, especially for Class
+1.
 
 ## 7. Usage
 

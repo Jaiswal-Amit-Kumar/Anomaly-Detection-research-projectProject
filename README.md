@@ -1,4 +1,4 @@
-# Anomaly-Detection-research-projectProject
+# Anomaly-Detection-research-project
 # Deep Learning for Network Anomaly Detection
 
 
